@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Website</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<nav>
+
+    <div class="logo">
+        Learn Website
+    </div>
+
+    <ul>
+
+        <li><a href="#" onclick="showPage('home')">Home</a></li>
+
+        <li><a href="#" onclick="showPage('about')">About</a></li>
+
+        <li><a href="#" onclick="showPage('list')">List</a></li>
+
+        <li><a href="#" onclick="showPage('features')">Features</a></li>
+
+        <li><a href="#" onclick="showPage('services')">Services</a></li>
+
+        <li><a href="#" onclick="showPage('gallery')">Gallery</a></li>
+
+        <li><a href="#" onclick="showPage('faq')">FAQ</a></li>
+
+        <li><a href="#" onclick="showPage('contact')">Contact</a></li>
+
+
+
+    </ul>
+
+</nav>
+
+<!-- ================= HOME ================= -->
+
+<section id="home" class="page active">
+
+<div class="hero">
+
+<h1>Welcome</h1>
+
+<p>
+Website sederhana untuk belajar untuk membuat web menggunakan HTML, CSS, dan JavaScript.
+</p>
+
+<button onclick="showPage('about')">
+Show More
+</button>
+
+</div>
+
+</section>
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="page">
+
+<div class="container">
+
+<h2>About The Website</h2>
+
+<p>
+
+Website adalah sekumpulan halaman digital yang saling terhubung dan dapat diakses melalui internet.
+
+
+
+
+</p>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>HTML</h3>
+
+<p>
+Berfungsi untuk membuat struktur dan konten dasar halaman bisa juga sebagai struktur utama website.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>CSS</h3>
+
+<p>
+ digunakan untuk mendesain tampilan visual dan layout dan juga mengatur tampilan agar menarik dan responsif.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>JavaScript</h3>
+
+<p>
+menambahkan interaktivitas dan fungsi dinamis yang membuat halaman web lebih responsif dan menarik bagi pengguna dan mengatur perpindahan halaman tanpa reload.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= LIST ================= -->
+
+<section id="list" class="page">
+
+<div class="container">
+
+<h2>Daftar Teknologi</h2>
+
+<div class="list-grid">
+
+<div class="item">
+
+<span>HTML</span>
+
+</div>
+
+<div class="item">
+
+<span>CSS</span>
+
+</div>
+
+<div class="item">
+
+<span>JavaScript</span>
+
+</div>
+
+<div class="item">
+
+<span>Responsive Design</span>
+
+</div>
+
+<div class="item">
+
+<span>Animation</span>
+
+</div>
+
+<div class="item">
+
+<span>Modern UI</span>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= FEATURES ================= -->
+
+ <section id="features" class="page">
+
+<div class="container">
+
+<h2>Our Features</h2>
+
+<p class="section-text">
+
+Website ini memiliki berbagai fitur modern yang dirancang agar nyaman digunakan,
+responsif di berbagai perangkat, dan memiliki tampilan profesional.
+
+</p>
+
+<div class="feature-grid">
+
+<div class="feature-card">
+
+<div class="feature-icon">⚡</div>
+
+<h3>Fast Performance</h3>
+
+<p>
+
+Website ringan dan cepat diakses.
+
+</p>
+
+</div>
+
+<div class="feature-card">
+
+<div class="feature-icon">🎨</div>
+
+<h3>Modern Design</h3>
+
+<p>
+
+Menggunakan tampilan Dark Glow dengan nuansa ungu dan biru.
+
+</p>
+
+</div>
+
+<div class="feature-card">
+
+<div class="feature-icon">📱</div>
+
+<h3>Responsive</h3>
+
+<p>
+
+Tampilan menyesuaikan ukuran layar komputer maupun smartphone.
+
+</p>
+
+</div>
+
+<div class="feature-card">
+
+<div class="feature-icon">🔒</div>
+
+<h3>Secure</h3>
+
+<p>
+
+Struktur kode sederhana dan mudah dikembangkan.
+
+</p>
+
+</div>
+
+<div class="feature-card">
+
+<div class="feature-icon">🌙</div>
+
+<h3>Dark Theme</h3>
+
+<p>
+
+Tema neon modern dengan efek glow yang nyaman dipandang.
+
+</p>
+
+</div>
+
+<div class="feature-card">
+
+<div class="feature-icon">🚀</div>
+
+<h3>Easy Navigation</h3>
+
+<p>
+
+Navigasi antar halaman cepat tanpa reload.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= SERVICES ================= -->
+
+<section id="services" class="page">
+
+    <div class="container">
+
+        <h2>Our Services</h2>
+
+        <p class="section-text">
+            Kami menyediakan berbagai layanan digital modern yang dirancang
+            untuk membantu pengembangan website, aplikasi, dan proyek IoT.
+        </p>
+
+        <div class="service-grid">
+
+            <div class="service-card">
+                <div class="service-icon">💻</div>
+                <h3>Web Development</h3>
+                <p>Membangun website modern menggunakan HTML, CSS, JavaScript dan framework terbaru.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">🎨</div>
+                <h3>UI / UX Design</h3>
+                <p>Merancang tampilan yang menarik, responsif, dan nyaman digunakan.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">📱</div>
+                <h3>Responsive Design</h3>
+                <p>Website dapat berjalan dengan baik pada desktop, tablet, maupun smartphone.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">⚙️</div>
+                <h3>IoT Development</h3>
+                <p>Mengembangkan sistem berbasis ESP32, Arduino, sensor, dan monitoring realtime.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">☁️</div>
+                <h3>Cloud Integration</h3>
+                <p>Menghubungkan perangkat dengan database dan layanan cloud.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">🛠</div>
+                <h3>Maintenance</h3>
+                <p>Perawatan website serta pembaruan sistem agar tetap aman dan optimal.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= GALLERY ================= -->
+
+<section id="gallery" class="page">
+
+    <div class="container">
+
+        <h2>Project Gallery</h2>
+
+        <p class="section-text">
+            Berikut beberapa contoh tampilan proyek dan desain yang pernah dibuat.
+        </p>
+
+        <div class="gallery-grid">
+
+            <div class="gallery-card">
+                <img src="https://picsum.photos/500/350?random=1" alt="">
+                <div class="gallery-overlay">
+                    <h3>Modern Dashboard</h3>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <img src="https://picsum.photos/500/350?random=2" alt="">
+                <div class="gallery-overlay">
+                    <h3>Responsive Website</h3>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <img src="https://picsum.photos/500/350?random=3" alt="">
+                <div class="gallery-overlay">
+                    <h3>UI Design</h3>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <img src="https://picsum.photos/500/350?random=4" alt="">
+                <div class="gallery-overlay">
+                    <h3>IoT Dashboard</h3>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <img src="https://picsum.photos/500/350?random=5" alt="">
+                <div class="gallery-overlay">
+                    <h3>Mobile App</h3>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <img src="https://picsum.photos/500/350?random=6" alt="">
+                <div class="gallery-overlay">
+                    <h3>Creative Design</h3>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= FAQ ================= --> 
+ 
+<section id="faq" class="page">
+
+<div class="container">
+
+<h2>Frequently Asked Questions</h2>
+
+<p class="section-text">
+
+Temukan jawaban dari beberapa pertanyaan yang sering diajukan mengenai website ini.
+
+</p>
+
+<div class="faq-container">
+
+<div class="faq-item">
+
+<div class="faq-question">
+
+<span>Apa tujuan website ini?</span>
+
+<span class="plus">+</span>
+
+</div>
+
+<div class="faq-answer">
+
+<p>
+
+Website ini dibuat sebagai contoh website modern menggunakan HTML, CSS, dan JavaScript dengan desain Dark Glow.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<div class="faq-question">
+
+<span>Apakah website ini responsive?</span>
+
+<span class="plus">+</span>
+
+</div>
+
+<div class="faq-answer">
+
+<p>
+
+Ya, tampilan website akan menyesuaikan berbagai ukuran layar mulai dari desktop hingga smartphone.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<div class="faq-question">
+
+<span>Teknologi apa yang digunakan?</span>
+
+<span class="plus">+</span>
+
+</div>
+
+<div class="faq-answer">
+
+<p>
+
+Website dibuat menggunakan HTML, CSS, dan JavaScript tanpa framework.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<div class="faq-question">
+
+<span>Apakah tampilannya bisa dikembangkan?</span>
+
+<span class="plus">+</span>
+
+</div>
+
+<div class="faq-answer">
+
+<p>
+
+Tentu. Website ini masih bisa ditambahkan animasi, backend, database, login, dashboard, hingga API.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="page">
+
+<div class="container">
+
+<h2>Contact Us</h2>
+
+<p class="section-text">
+
+Jangan ragu menghubungi kami apabila memiliki pertanyaan maupun ingin bekerja sama.
+
+</p>
+
+<div class="contact-wrapper">
+
+<div class="contact-form">
+
+<form>
+
+<input type="text" placeholder="Full Name">
+
+<input type="email" placeholder="Email Address">
+
+<input type="text" placeholder="Subject">
+
+<textarea rows="6" placeholder="Write your message..."></textarea>
+
+<button type="submit">
+
+<i class="fa-solid fa-paper-plane"></i>
+
+Send Message
+
+</button>
+
+</form>
+
+</div>
+
+<div class="contact-info">
+
+<div class="info-card">
+
+<i class="fa-solid fa-location-dot"></i>
+
+<div>
+
+<h3>Location</h3>
+
+<p>Indonesia</p>
+
+</div>
+
+</div>
+
+<div class="info-card">
+
+<i class="fa-solid fa-envelope"></i>
+
+<div>
+
+<h3>Email</h3>
+
+<p>stiffennofery@email.com</p>
+
+</div>
+
+</div>
+
+<div class="info-card">
+
+<i class="fa-solid fa-phone"></i>
+
+<div>
+
+<h3>Phone</h3>
+
+<p>+62 812 3646 9090</p>
+
+</div>
+
+</div>
+
+<div class="info-card">
+
+<i class="fa-solid fa-globe"></i>
+
+<div>
+
+<h3>Website</h3>
+
+<p>www.mywebsite.com</p>
+
+</div>
+
+</div>
+
+<div class="social-media">
+
+<a href="#"><i class="fab fa-instagram"></i></a>
+
+<a href="#"><i class="fab fa-github"></i></a>
+
+<a href="#"><i class="fab fa-linkedin"></i></a>
+
+<a href="#"><i class="fab fa-facebook"></i></a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 Learn Webste | Dibuat dengan HTML CSS JavaScript
+</p>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
